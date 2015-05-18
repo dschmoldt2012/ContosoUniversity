@@ -47,14 +47,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ContosoUniversity.Models.Event">
-    <Position X="7" Y="1.75" Width="1.5" />
+    <Position X="7" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ACAAAAAAAAAgAAAAAAAAAAQgAAAAAAAAAAAAAEAAAAA=</HashCode>
       <FileName>Models\Event.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ContosoUniversity.Models.Product">
-    <Position X="3" Y="2" Width="1.5" />
+    <Position X="1.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Product.cs</FileName>
@@ -68,11 +68,28 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ContosoUniversity.Models.Beacon">
-    <Position X="5" Y="2.25" Width="1.5" />
+    <Position X="5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAgAAAAAhAAAAAAAAAAAABAAAAAAAAAAAAggAAAAACA=</HashCode>
       <FileName>Models\Beacon.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="BeaconTypes" />
+    </ShowAsCollectionAssociation>
   </Class>
+  <Class Name="ContosoUniversity.Models.License">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAEgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Models\License.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ContosoUniversity.Models.BeaconType">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Beacon.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

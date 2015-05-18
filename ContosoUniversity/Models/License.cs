@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 
 namespace ContosoUniversity.Models
 {
-    public class Event
+    public class License
     {
-        public int EventID { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public int LicenseID { get; set; }
+        public string Key { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
     }
