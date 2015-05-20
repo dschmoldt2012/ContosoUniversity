@@ -11,14 +11,14 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="ContosoUniversity.Models.Enrollment">
-    <Position X="7.75" Y="5.75" Width="1.5" />
+    <Position X="7.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAAAAAAAIAAAAAAAAAAAAwAAAAAAAECAAA=</HashCode>
       <FileName>Models\Enrollment.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ContosoUniversity.Models.Student">
-    <Position X="2.75" Y="5.75" Width="1.5" />
+    <Position X="1.75" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAAAAgAAg=</HashCode>
       <FileName>Models\Student.cs</FileName>
@@ -28,7 +28,7 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="ContosoUniversity.DAL.SchoolContext">
-    <Position X="7" Y="3.5" Width="1.75" />
+    <Position X="7.25" Y="3.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAABAAAAA=</HashCode>
       <FileName>DAL\SchoolContext.cs</FileName>
@@ -40,14 +40,14 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="ContosoUniversity.DAL.SchoolInitializer">
-    <Position X="9" Y="2.25" Width="3.25" />
+    <Position X="3.75" Y="7" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DAL\SchoolInitializer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ContosoUniversity.Models.Event">
-    <Position X="7" Y="1" Width="1.5" />
+    <Position X="8.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACAAAAAAAAAgAAAAAAAAAAQgAAAAAAAAAAAAAEAAAAA=</HashCode>
       <FileName>Models\Event.cs</FileName>
@@ -61,20 +61,23 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ContosoUniversity.Models.Vendor">
-    <Position X="0.5" Y="2" Width="1.5" />
+    <Position X="1.25" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Vendor.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Beacons" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="ContosoUniversity.Models.Beacon">
-    <Position X="5" Y="2" Width="1.5" />
+    <Position X="5.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAAhAAAAAAAAAAAABAAAAAAAAAAAAggAAAAACA=</HashCode>
+      <HashCode>AAgAAAAAhAAgAAAAAAAAABAAAAAAAAAAAAggAAAAACA=</HashCode>
       <FileName>Models\Beacon.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
-      <Property Name="BeaconTypes" />
+      <Property Name="Notifications" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="ContosoUniversity.Models.License">
@@ -84,12 +87,12 @@
       <FileName>Models\License.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Enum Name="ContosoUniversity.Models.BeaconType">
-    <Position X="3" Y="3" Width="1.5" />
+  <Class Name="ContosoUniversity.Models.Notification">
+    <Position X="10.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAABA=</HashCode>
-      <FileName>Models\Beacon.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Notification.cs</FileName>
     </TypeIdentifier>
-  </Enum>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

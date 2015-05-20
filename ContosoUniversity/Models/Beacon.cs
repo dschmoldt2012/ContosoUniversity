@@ -27,5 +27,6 @@ namespace ContosoUniversity.Models
         public long Major { get; set; }
         public long Minor { get; set; }
         public virtual ICollection<BeaconType> BeaconTypes { get; set; }
+        public virtual ICollection<Notification> Notifications { get; set;  }
     }
 }
