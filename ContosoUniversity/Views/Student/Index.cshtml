@@ -36,9 +36,9 @@
                 @Html.DisplayFor(modelItem => item.EnrollmentDate)
             </td>
             <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-default btn-xs" })&nbsp;
-                    @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-default btn-xs" })&nbsp;
-                    @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-default btn-xs" })
+                @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-default btn-xs" })&nbsp;
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-primary btn-xs" })&nbsp;
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-danger btn-xs" })
             </td>
         </tr>
     }
