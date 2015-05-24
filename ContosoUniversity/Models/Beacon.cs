@@ -13,9 +13,18 @@ namespace ContosoUniversity.Models
 {
     public enum BeaconType
     {
-        Unknown,
+        Unknown = 0,
         Other,
         iBeacon
+    }
+
+    public enum BeaconProximity
+    {
+        Unknown = 0,
+        Other,
+        Immediate,
+        Near,
+        Far
     }
 
     public class Beacon

@@ -1,6 +1,6 @@
 ﻿
 //
-// Notification.cs
+// Vendor.cs
 //
 
 using System;
@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 
 namespace ContosoUniversity.Models
 {
-    public class Notification
+    public class Vendor
     {
-        public int NotificationID { get; set; }
-        public string ViewDefinition { get; set; }
+        public int VendorID { get; set; }
+        public virtual ICollection<Beacon> Beacons { get; set; }
     }
 }
